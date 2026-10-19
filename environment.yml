@@ -1,0 +1,6 @@
+name: adabridge-sr
+channels:
+  - defaults
+dependencies:
+  - python=3.10
+  - pip

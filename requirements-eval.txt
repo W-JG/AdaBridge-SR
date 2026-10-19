@@ -1,0 +1,5 @@
+# Evaluation dependencies; install after requirements.txt in the same environment.
+pyiqa==0.1.15.post2
+timm==1.0.19
+# Provides pkg_resources, which CLIP (used by CLIPIQA) still imports.
+setuptools==80.10.2

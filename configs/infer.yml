@@ -1,0 +1,20 @@
+# Default inference settings.
+sd_path: ${oc.env:SD_PATH}
+lora_path: weights/final
+fixed_prompt: ''
+timestep_sequence: [400, 300, 200, 100]
+bridge_sigma: 0.005
+enable_trajectory_control: true
+enable_power_modulation: true
+enable_sigma_map_modulation: true
+power_min: 0.5
+power_max: 1.5
+control_base_channels: 64
+control_num_res_blocks: 4
+process_size: 512
+upscale: 4
+align_method: adain
+weight_dtype: bf16
+device: cuda:0
+num_infer_steps: 1
+seed: 42
